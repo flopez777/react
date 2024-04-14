@@ -1,0 +1,81 @@
+html {
+    min-height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('./imgs/bg-img.png'); /* Ruta relativa a la raíz del servidor */
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    padding-bottom: 5rem;
+}
+header {
+    height: 17vh;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.logo {
+    height: 200px;
+}
+
+.custom-button {
+    background-color: #43C0B0;
+    border: none;
+    border-radius: 20px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container {
+    max-width: 70%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.893);
+    backdrop-filter: blur(5px);
+}
+
+header {
+    margin-top: 3rem;
+}
+
+header h1 {
+    color: white;
+}
+
+.lista-citas .cita {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+.lista-citas .cita:last-of-type {
+    border-bottom: 0;
+}
+
+.lista-citas .cita p {
+    margin: 0;
+}
+
+.lista-citas .cita button {
+    margin-top: 1rem !important;
+}
+
+.lista-citas .cita span {
+    font-weight: bold;
+}
+
+textarea {
+    height: 200px !important;
+}
+
+svg {
+    width: 21px;
+}
